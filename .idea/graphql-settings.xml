@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GraphQLSettings">
+    <option name="enableRelayModernFrameworkSupport" value="true" />
+    <option name="enableFederationSupport" value="true" />
+    <option name="enableApolloKotlinSupport" value="true" />
+  </component>
+</project>

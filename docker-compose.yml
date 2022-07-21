@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  devenv:
+    build: ./dev
+    ports:
+      - "3000:3000"
+
+    volumes:
+      - .:/workspace
+
+    command: /bin/sh -c "cd /workspace/app; yarn dev"
